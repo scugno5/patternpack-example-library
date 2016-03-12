@@ -20,27 +20,125 @@
       <div id="libraryContent" class="pp-content">
         <div class="markdown__body">
           <h2 id="buttons">Buttons</h2>
-          <p>TODO: Describe what buttons are and how they are used in the application.</p>
+          <p>Per quanto riguarda gli
+            <b>Ancor Tags come immagini</b>, come riportato dal codice in basso ho creato un immagine da utilizzare come link. Mi rendo conto che per impostare i diversi stati ( active, hover, ecc....) dovrei creare del files js appositi. Non mi sembra una
+            soluzione molto pratica.</p>
+          <p>Per quanto riguarda invece gli
+            <b>Anchor Tags che usano classi con immagini e bottoni in CSS</b> posso dire che li trovo molto più pratici per eventuali animazioni ed interattività. Ci ho speso sopra parecchio tempo per entrare in molte dinamiche, ma il risultato a mio parere
+            garantisce più flessibilità.</p>
+          <p>Per questi ultimi mi sono anche concesso di sperimentare un semplice stato
+            <b>:hover</b>
+          </p>
           <h3 id="examples">Examples</h3>
           <div class="library__example">
-            <button type="button" class="button--primary">Primary</button>
-            <button type="button" class="button--secondary">Secondary</button>
-            <br />
-            <br />
-            <button type="button" class="button--primary button--large">Primary Large</button>
-            <button type="button" class="button--secondary button--large">Secondary Large</button>
-            <br />
-            <br />
-            <button type="button" class="button--primary button--small">Primary Small</button>
-            <button type="button" class="button--secondary button--small">Secondary Small</button>
+            <h4>Anchor Tag come immagini</h4>
+            <p>Logo HiRes</p>
+            <a>
+              <img class="" src="../assets/images/Filled/HiRes_Black.svg" width="100" height="40">
+            </a> 
+            <a>
+              <img class="" src="../assets/images/Filled/HiRes_Blue.svg" width="100" height="40">
+            </a> 
+            <a>
+              <img class="" src="../assets/images/Filled/HiRes_BlueLi.svg" width="100" height="40">
+            </a> 
+            <a>
+              <img class="" src="../assets/images/Filled/HiRes_Green.svg" width="100" height="40">
+            </a> 
+            <a>
+              <img class="" src="../assets/images/Filled/HiRes_GreenLi.svg" width="100" height="40">
+            </a> 
+            <p>Logo NoGrid</p>
+            <a>
+              <img class="" src="../assets/images/Filled/NoGrid_Black.svg" width="100" height="40">
+            </a> 
+            <a>
+              <img class="" src="../assets/images/Filled/NoGrid_Blue.svg" width="100" height="40">
+            </a> 
+            <a>
+              <img class="" src="../assets/images/Filled/NoGrid_BlueLi.svg" width="100" height="40">
+            </a> 
+            <a>
+              <img class="" src="../assets/images/Filled/NoGrid_Green.svg" width="100" height="40">
+            </a> 
+            <a>
+              <img class="" src="../assets/images/Filled/NoGrid_GreenLi.svg" width="100" height="40">
+            </a> 
+            <p>Logo NoBack</p>
+            <a>
+              <img class="" src="../assets/images/Filled/NoBack_Black.svg" width="100" height="40">
+            </a> 
+            <a>
+              <img class="" src="../assets/images/Filled/NoBack_Blue.svg" width="100" height="40">
+            </a> 
+            <a>
+              <img class="" src="../assets/images/Filled/NoBack_BlueLi.svg" width="100" height="40">
+            </a> 
+            <a>
+              <img class="" src="../assets/images/Filled/NoBack_Green.svg" width="100" height="40">
+            </a> 
+            <a>
+              <img class="" src="../assets/images/Filled/NoBack_GreenLi.svg" width="100" height="40">
+            </a> 
+            <h4>Anchor Tag con classe bottone e immagine</h4>
+            <p>Logo HiRes</p>
+            <a class="btn Bla-Primo" href="#">Cliccami</a> 
+            <a class="btn B-Primo" href="#">Cliccami</a> 
+            <a class="btn Bl-Primo" href="#">Cliccami</a> 
+            <a class="btn G-Primo" href="#">Cliccami</a> 
+            <a class="btn Gl-Primo" href="#">Cliccami</a> 
+            <p>Logo NoBack</p>
+            <a class="btn Bla-Secondo" href="#">Cliccami</a> 
+            <a class="btn B-Secondo" href="#">Cliccami</a> 
+            <a class="btn Bl-Secondo" href="#">Cliccami</a> 
+            <a class="btn G-Secondo" href="#">Cliccami</a> 
+            <a class="btn Gl-Secondo" href="#">Cliccami</a> 
+            <p>Logo NoGrid</p>
+            <a class="btn Bla-Terzo" href="#">Cliccami</a> 
+            <a class="btn B-Terzo" href="#">Cliccami</a> 
+            <a class="btn Bl-Terzo" href="#">Cliccami</a> 
+            <a class="btn G-Terzo" href="#">Cliccami</a> 
+            <a class="btn Gl-Terzo" href="#">Cliccami</a> 
           </div>
           <h3 id="code">Code</h3>
-          <pre><code class="language-html">&lt;button type=&quot;button&quot; class=&quot;button--primary&quot;&gt;Primary&lt;/button&gt;
-&lt;button type=&quot;button&quot; class=&quot;button--secondary&quot;&gt;Secondary&lt;/button&gt;
-&lt;button type=&quot;button&quot; class=&quot;button--primary button--large&quot;&gt;Primary Large&lt;/button&gt;
-&lt;button type=&quot;button&quot; class=&quot;button--secondary button--large&quot;&gt;Secondary Large&lt;/button&gt;
-&lt;button type=&quot;button&quot; class=&quot;button--primary button--small&quot;&gt;Primary Small&lt;/button&gt;
-&lt;button type=&quot;button&quot; class=&quot;button--secondary button--small&quot;&gt;Secondary Small&lt;/button&gt;</code></pre>
+          <pre><code class="language-html">&lt;h4&gt;Anchor Tag come immagini&lt;/h4&gt;
+&lt;p&gt;Logo HiRes&lt;/p&gt;
+&lt;a&gt;&lt;img class=&quot;&quot; src=&quot;../assets/images/Filled/HiRes_Black.svg&quot; width=&quot;100&quot; height=&quot;40&quot;&gt;&lt;/a&gt;
+&lt;a&gt;&lt;img class=&quot;&quot; src=&quot;../assets/images/Filled/HiRes_Blue.svg&quot; width=&quot;100&quot; height=&quot;40&quot;&gt;&lt;/a&gt;
+&lt;a&gt;&lt;img class=&quot;&quot; src=&quot;../assets/images/Filled/HiRes_BlueLi.svg&quot; width=&quot;100&quot; height=&quot;40&quot;&gt;&lt;/a&gt;
+&lt;a&gt;&lt;img class=&quot;&quot; src=&quot;../assets/images/Filled/HiRes_Green.svg&quot; width=&quot;100&quot; height=&quot;40&quot;&gt;&lt;/a&gt;
+&lt;a&gt;&lt;img class=&quot;&quot; src=&quot;../assets/images/Filled/HiRes_GreenLi.svg&quot; width=&quot;100&quot; height=&quot;40&quot;&gt;&lt;/a&gt;
+&lt;p&gt;Logo NoGrid&lt;/p&gt;
+&lt;a&gt;&lt;img class=&quot;&quot; src=&quot;../assets/images/Filled/NoGrid_Black.svg&quot; width=&quot;100&quot; height=&quot;40&quot;&gt;&lt;/a&gt;
+&lt;a&gt;&lt;img class=&quot;&quot; src=&quot;../assets/images/Filled/NoGrid_Blue.svg&quot; width=&quot;100&quot; height=&quot;40&quot;&gt;&lt;/a&gt;
+&lt;a&gt;&lt;img class=&quot;&quot; src=&quot;../assets/images/Filled/NoGrid_BlueLi.svg&quot; width=&quot;100&quot; height=&quot;40&quot;&gt;&lt;/a&gt;
+&lt;a&gt;&lt;img class=&quot;&quot; src=&quot;../assets/images/Filled/NoGrid_Green.svg&quot; width=&quot;100&quot; height=&quot;40&quot;&gt;&lt;/a&gt;
+&lt;a&gt;&lt;img class=&quot;&quot; src=&quot;../assets/images/Filled/NoGrid_GreenLi.svg&quot; width=&quot;100&quot; height=&quot;40&quot;&gt;&lt;/a&gt;
+&lt;p&gt;Logo NoBack&lt;/p&gt;
+&lt;a&gt;&lt;img class=&quot;&quot; src=&quot;../assets/images/Filled/NoBack_Black.svg&quot; width=&quot;100&quot; height=&quot;40&quot;&gt;&lt;/a&gt;
+&lt;a&gt;&lt;img class=&quot;&quot; src=&quot;../assets/images/Filled/NoBack_Blue.svg&quot; width=&quot;100&quot; height=&quot;40&quot;&gt;&lt;/a&gt;
+&lt;a&gt;&lt;img class=&quot;&quot; src=&quot;../assets/images/Filled/NoBack_BlueLi.svg&quot; width=&quot;100&quot; height=&quot;40&quot;&gt;&lt;/a&gt;
+&lt;a&gt;&lt;img class=&quot;&quot; src=&quot;../assets/images/Filled/NoBack_Green.svg&quot; width=&quot;100&quot; height=&quot;40&quot;&gt;&lt;/a&gt;
+&lt;a&gt;&lt;img class=&quot;&quot; src=&quot;../assets/images/Filled/NoBack_GreenLi.svg&quot; width=&quot;100&quot; height=&quot;40&quot;&gt;&lt;/a&gt;
+&lt;h4&gt;Anchor Tag con classe bottone e immagine&lt;/h4&gt;
+&lt;p&gt;Logo HiRes&lt;/p&gt;
+&lt;a class=&quot;btn Bla-Primo&quot; href=&quot;#&quot;&gt;Cliccami&lt;/a&gt;
+&lt;a class=&quot;btn B-Primo&quot; href=&quot;#&quot;&gt;Cliccami&lt;/a&gt;
+&lt;a class=&quot;btn Bl-Primo&quot; href=&quot;#&quot;&gt;Cliccami&lt;/a&gt;
+&lt;a class=&quot;btn G-Primo&quot; href=&quot;#&quot;&gt;Cliccami&lt;/a&gt;
+&lt;a class=&quot;btn Gl-Primo&quot; href=&quot;#&quot;&gt;Cliccami&lt;/a&gt;
+&lt;p&gt;Logo NoBack&lt;/p&gt;
+&lt;a class=&quot;btn Bla-Secondo&quot; href=&quot;#&quot;&gt;Cliccami&lt;/a&gt;
+&lt;a class=&quot;btn B-Secondo&quot; href=&quot;#&quot;&gt;Cliccami&lt;/a&gt;
+&lt;a class=&quot;btn Bl-Secondo&quot; href=&quot;#&quot;&gt;Cliccami&lt;/a&gt;
+&lt;a class=&quot;btn G-Secondo&quot; href=&quot;#&quot;&gt;Cliccami&lt;/a&gt;
+&lt;a class=&quot;btn Gl-Secondo&quot; href=&quot;#&quot;&gt;Cliccami&lt;/a&gt;
+&lt;p&gt;Logo NoGrid&lt;/p&gt;
+&lt;a class=&quot;btn Bla-Terzo&quot; href=&quot;#&quot;&gt;Cliccami&lt;/a&gt;
+&lt;a class=&quot;btn B-Terzo&quot; href=&quot;#&quot;&gt;Cliccami&lt;/a&gt;
+&lt;a class=&quot;btn Bl-Terzo&quot; href=&quot;#&quot;&gt;Cliccami&lt;/a&gt;
+&lt;a class=&quot;btn G-Terzo&quot; href=&quot;#&quot;&gt;Cliccami&lt;/a&gt;
+&lt;a class=&quot;btn Gl-Terzo&quot; href=&quot;#&quot;&gt;Cliccami&lt;/a&gt;</code></pre>
         </div>
       </div>
       <div id="menuOverlay" class="pp-open-overlay"></div>

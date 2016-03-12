@@ -1,7 +1,7 @@
 {
-  "name": "patternpack-example-library",
-  "description": "The example pattern library created from pattern pack",
-  "version": "1.0.10",
+  "name": "geobeyond-library",
+  "description": "The Geobeyond library created from pattern pack example library",
+  "version": "1.0.1",
   "license": "MIT",
   "ignore": [
     "src",
@@ -17,12 +17,9 @@
   "repository":
   {
     "type": "git",
-    "url": "git://github.com/patternpack/patternpack-example-library.git"
+    "url": "git://github.com/scugno5/patternpack-example-library.git"
   },
-  "authors": [
-    "John Gully <john.gully@slalom.com>",
-    "Marcelo Sommers <marcelos@slalom.com>"
-  ],
+  "author": "Simone Egizi <egizisimone@gmail.com>",
   "keywords": [
     "atomic design",
     "atomic-design",
