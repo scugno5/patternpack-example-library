@@ -8,7 +8,7 @@ Bottoni primari in diversi colori con logo ombreggiato in rilievo e diverse anim
 ### Examples
 <div class="library__example">
 	<h4>Hero</h4>
-		<a class="btn-hero" href="#">DAJE</a>
+		<a class="btn-hero" href="#">Contattaci</a>
 	<h4>Buttons</h4>
 		<a class="btn bla" href="#">Cliccami</a>
 		<a class="btn b" href="#">Cliccami</a>
@@ -21,7 +21,7 @@ Bottoni primari in diversi colori con logo ombreggiato in rilievo e diverse anim
 ### Code
 ```html
 	<h4>Hero</h4>
-		<a class="btn-hero" href="#">DAJE</a>
+		<a class="btn-hero" href="#">Contattaci</a>
 	<h4>Buttons</h4>
 		<a class="btn bla" href="#">Cliccami</a>
 		<a class="btn b" href="#">Cliccami</a>

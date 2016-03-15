@@ -11,7 +11,7 @@ These are Colors in the Application
     <ul class="library__color-swatch__details">
       <li><strong>Nero</strong></li>
       <li>#000000</li>
-      <li>$color-red</li>
+      <li>$color-nero</li>
     </ul>
   </div>
 
