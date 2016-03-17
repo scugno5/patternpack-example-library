@@ -11,11 +11,11 @@ Bottoni primari in diversi colori con logo ombreggiato in rilievo e diverse anim
 		<a class="btn-hero" href="#">Contattaci</a>
 	<h4>Buttons</h4>
 		<a class="btn bla" href="#">Cliccami</a>
-		<a class="btn b" href="#">Cliccami</a>
-		<a class="btn bl" href="#">Cliccami</a>
+		<a class="btn blue" href="#">Cliccami</a>
+		<a class="btn bluel" href="#">Cliccami</a>
 		<br />
-		<a class="btn g" href="#">Cliccami</a>
-		<a class="btn gl" href="#">Cliccami</a>
+		<a class="btn green" href="#">Cliccami</a>
+		<a class="btn greenl" href="#">Cliccami</a>
 </div>
 
 ### Code
@@ -24,11 +24,11 @@ Bottoni primari in diversi colori con logo ombreggiato in rilievo e diverse anim
 		<a class="btn-hero" href="#">Contattaci</a>
 	<h4>Buttons</h4>
 		<a class="btn bla" href="#">Cliccami</a>
-		<a class="btn b" href="#">Cliccami</a>
-		<a class="btn bl" href="#">Cliccami</a>
+		<a class="btn blue" href="#">Cliccami</a>
+		<a class="btn bluel" href="#">Cliccami</a>
 		<br />
-		<a class="btn g" href="#">Cliccami</a>
-		<a class="btn gl" href="#">Cliccami</a>
+		<a class="btn green" href="#">Cliccami</a>
+		<a class="btn greenl" href="#">Cliccami</a>
 
 ```
 

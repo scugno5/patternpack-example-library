@@ -1,61 +1,84 @@
-form {
-  background: -webkit-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
-  background: -moz-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
-  background: linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
-  margin: auto;
-  position: relative;
-  width: 550px;
-  height: 450px;
-  font-family: Tahoma, Geneva, sans-serif;
-  font-size: 14px;
-  font-style: italic;
-  line-height: 24px;
-  font-weight: bold;
-  color: #09C;
-  text-decoration: none;
-  border-radius: 10px;
-  padding: 10px;
-  border: 1px solid #999;
-  border: inset 1px solid #333;
-  -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
-  -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
-  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+
+
+.form2 {
+    margin-left:auto;
+    margin-right:auto;
+    max-width: 500px;
+    background: #7AB51D;
+    padding: 20px 20px 20px 20px;
+    font: 12px Arial, Helvetica, sans-serif;
+	color: #006699;
 }
 
-input {
-  width: 375px;
-  display: block;
-  border: 1px solid #999;
-  height: 25px;
-  -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
-  -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
-  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+.form2 div { border-radius: 20px;}
+
+.form2 h1 {
+	text-align: left;
+    font: 24px Dax, Arial, Helvetica, sans-serif;
+    padding: 10px 10px 10px 20px;
+    display: block;
+    background: #fff;
+    border-bottom: 1px solid #B8DDFF;
+    margin: -20px -20px 15px;
 }
 
-textarea#feedback {
-  width: 375px;
-  height: 150px;
-  display: block;
+.form2 label {
+    display: block;
+    margin: 0px 0px 5px;
+}
+.form2 label>span {
+    color: #0099CC;
+	float: left;
+    width: 20%;
+    text-align: right;
+    padding-right: 15px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.form2 input[type="text"], .form2 input[type="email"], .form2 textarea, .form2 select {
+    color: #006699;
+    width: 70%;
+    padding: 0px 0px 0px 5px;
+    border: 1px solid #C5E2FF;
+    background: #FBFBFB;
+    outline: 0;
+    -webkit-box-shadow:inset 0px 1px 6px #ECF3F5;
+    box-shadow: inset 0px 1px 6px #ECF3F5;
+    font: 200 12px/25px Arial, Helvetica, sans-serif;
+    height: 30px;
+    line-height:15px;
+    margin: 2px 6px 16px 0px;
+}
+.form2 textarea{
+    height:100px;
+    padding: 5px 0px 0px 5px;
+    width: 70%;
+}
+.form2 select {
+   appearance: scrollbarbutton-right;
+    -webkit-appearance: scrollbarbutton-right; 
+   -moz-appearance: scrollbarbutton-right;
+    text-indent: 0.01px;
+    text-overflow: '...';
+    width: 70%;
+}
+.form2 input[type="button"] {
+    padding: 10px 30px 10px 30px;
+    background: #66C1E4;
+    border: none;
+    color: #FFF;
+    box-shadow: 1px 1px 1px #4C6E91;
+    -webkit-box-shadow: 1px 1px 1px #4C6E91;
+    -moz-box-shadow: 1px 1px 1px #4C6E91;
+    text-shadow: 1px 1px 1px #5079A3;
+    
+}
+.form2 input[type="button"]:hover {
+    background: #3EB1DD;
 }
 
-button {
-  width: 100px;
-  position: absolute;
-  right: 20px;
-  bottom: 20px;
-  background: #09C;
-  color: #fff;
-  font-family: Tahoma, Geneva, sans-serif;
-  height: 30px;
-  border-radius: 15px;
-  border: 1p solid #999;
+.form2 textarea:focus, .form2 input:focus {
+    border: 2px solid #09C;
 }
 
-input.button:hover {
-  background: #fff;
-  color: #09C;
-}
-
-textarea:focus, input:focus {
-  border: 1px solid #09C;
-}
+.form2 input, .form2 select { border-radius: 10px;}

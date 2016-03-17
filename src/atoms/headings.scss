@@ -1,52 +1,74 @@
 //Styles for Headings
 
-h1 {
-	text-font: Dax, Arial;
-	text-weight: italic;
-    text-align: center;
-	text-size: 24px;
-	margin-bottom: 50px;
-}
+h1, h2, h3, h4, h5, h6 { text-font: Dax, Arial; text-weight: bold; margin-bottom: 40px; }
 
-span {
-	color: #0000FF;
-	text-size: 28px;
-	text-weight: bold;
-	margin-left: 30px;
-}
+h1 { text-align: center; text-size: 32px; }
 
-.uno {
-	color: #0099CC;
-    text-shadow: -1px -1px 1px #000, 1px 1px 1px #ccc;
+h2 { text-align: right;	text-size: 26px; }
+
+h3 { text-align: right;	text-size: 20px; }
+
+h4 { text-align: right;	text-size: 17px; }
+
+h5 { text-align: left; text-size: 12px; }
+
+h6 { text-align: left; text-size: 8px; }
+
+span { color: #006699; text-size: 28px; text-weight: bold; text-shadow: 0 0 5px #000; margin-left: 30px;  }
+
+//---------------------------------------------------------------
+
+.a {
+	color: #fff;
+    text-shadow: 1px 4px 6px #000, 0 0 0 #000, 1px 4px 6px #0CC;
     position: relative;
 	width: 100%;
 	margin-left: -100px;
 	margin-right: -100px;
-	border: 11px;
-	border-radius: 0px 0 100px 0px;
+	border-radius: 100px 0 100px 0;
     background: url(/assets/images/scacchiera.svg);
-	filter: drop-shadow(5px -25px 11px rgba(0,0,0,5.75));
+	filter: drop-shadow(5px -12px 11px rgba(0,0,0,5.75));	
 }
 
-.uno:before {
+.a2 {
+	color: #fff;
+    text-shadow: 1px 4px 6px #000, 0 0 0 #000, 1px 4px 6px #0CC;
+    position: relative;
+	width: 100%;
+	margin-left: -100px;
+	margin-right: -100px;
+	border-radius: 100px 0 100px 0;
+    background: url(/assets/images/scacchiera-g.svg);
+	filter: drop-shadow(1px -1px 1px rgba(0,0,0,5.75));	
+}
+
+h2.a {
+	color: #fff;
+	filter: drop-shadow(1px 2px 3px #006699);
+}
+
+.a:before {
     content:  "";
 	display: inline-block;
     height: 100px;
     width: 200px;
     position: absolute;   
-	bottom: -15px;
-	left: 0px; 
+	top: -50%;
+	left: 10px;
     background: url(/assets/images/heading_uno.svg) left center;
     background-size: 100% 100%;  
-	filter: drop-shadow(5px 5px 1.5px rgba(0,0,0,5.75));
+	filter: drop-shadow(5px 12px 11px rgba(0,0,0,5.75));
 }
 
-.due {
-    color: #006699;
-    text-shadow: 1px 1px 5px #000000;
+//---------------------------------------------------------------
+
+.b {
+    color: #0099CC;
+	text-shadow: 1px 1px 5px #000000;
+	background-color: transparent;
 }
 
-.due:before {
+.b:before {
     content:  "";
 	display: inline-block;
     height: 100px;
@@ -60,21 +82,15 @@ span {
 	filter: drop-shadow(5px 5px 1.5px rgba(0,0,0,5.75));
 }
 
-.duedue {
+//---------------------------------------------------------------
+
+.c {
     color: #FFFFFF;
     text-shadow: -1px -1px 1px #000, 1px 1px 1px #ccc;
 	width: 100%;
 }
 
-.backopac {
-	background: #1e5799; 
-	background: -moz-linear-gradient(45deg,  rgba(0, 153, 204, 0.2) 0%, rgba(0, 102, 153, 0.2) 75%);
-	background: -webkit-linear-gradient(45deg,  rgba(0, 153, 204, 0.2) 0%, rgba(0, 102, 153, 0.2) 75%);
-	background: linear-gradient(45deg,  rgba(0, 153, 204, 0.2) 0%, rgba(0, 102, 153, 0.2) 75%); 
-}
-
-
-.duedue:before {
+.c:before {
     content:  "";
 	display: inline-block;
     height: 100px;
@@ -88,13 +104,15 @@ span {
 	filter: drop-shadow(5px 5px 1.5px rgba(0,0,0,5.75));
 } 
 
-.tre {
+.d {
     color: #CCCCCC;
     text-shadow: 0 1px 0 #999999, 0 2px 0 #888888,
              0 3px 0 #777777, 0 4px 0 #666666;
 }
 
-.tre:before {
+//---------------------------------------------------------------
+
+.d:before {
     content:  "";
 	display: inline-block;
     height: 100px;
@@ -108,23 +126,28 @@ span {
 	filter: drop-shadow(5px 5px 1.5px rgba(0,0,0,5.75));
 }
 
-.quattro {
-  border-bottom: 1px dashed #aaa;
-  border-left: 7px solid #aaa;    
-  border-left: 7px solid rgba(0,0,0,.2);
+//---------------------------------------------------------------
+
+.e {
+  color: white;
+  text-shadow: 0 0 5px #0099CC;
+  border-bottom: 2px dotted #7AB51D;
+  border-left: 7px solid #7AB51D;
   margin: 0 -15px 15px -22px;
   padding: 5px 15px;
 }
 
-.cinque {
+//---------------------------------------------------------------
+
+.f {
   border-bottom: 1px solid #aaa;
   margin: 15px 0;
   padding: 5px 0;
   position: relative;
 }
 
-.cinque:before,
-.cinque:after {
+.f:before,
+.f:after {
   content: '';
   border-right: 20px solid #fff;
   border-top: 15px solid #aaa;
@@ -133,46 +156,18 @@ span {
   left: 25px;
 }
 
-.cinque:after {
+.f:after {
   border-top-color: #fff;
   border-right-color: transparent;
   bottom: -13px;
   left: 26px;
 }
 
-.sei {
+//---------------------------------------------------------------
+
+.g {
+  color: #0099CC;
   position: relative;
-  margin-left: -22px; /* 15px padding + 7px border ribbon shadow*/
-  margin-right: -22px;
-  padding: 15px;
-  background: #e5e5e5;
-  background: linear-gradient(#f5f5f5, #e5e5e5);
-  box-shadow: 0 -1px 0 rgba(255,255,255,.8) inset;
-  text-shadow: 0 1px 0 #fff;
-}
-
-.sei:before,
-.sei:after {
-  position: absolute;
-  left: 0;
-  bottom: -6px;
-  content:'';
-  border-top: 6px solid #555;
-  border-left: 6px solid transparent;
-}
-
-.sei:before {
-  border-top: 6px solid #555;
-  border-right: 6px solid transparent;
-  border-left: none;
-  left: auto;
-  right: 0;
-  bottom: -6px;
-}
-
-.sette {
-  position: relative;
-  border-color: #eee;
   border-style: solid;
   border-width: 5px 5px 5px 0;
   background: #fff;
@@ -181,7 +176,16 @@ span {
   box-shadow: 1px 1px 1px rgba(0,0,0,.3);
 }
 
-.sette:after {
+h3.g {
+  border-color: #457A1C;
+}
+
+h4.g {
+  border-color: #7AB51D;
+}
+
+
+.g:after {
   content: "";
   position: absolute;
   z-index: -1;

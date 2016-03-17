@@ -36,16 +36,16 @@
 }
 
 .btn-hero:hover {
-border-radius: 50% 50% 50% 50%;
-transition:All 1s ease;
--webkit-transition:All 1s ease;
--moz-transition:All 1s ease;
--o-transition:All 1s ease;
-transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
--webkit-transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
--moz-transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
--o-transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
--ms-transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+	border-radius: 50% 50% 50% 50%;
+	transition:All 1s ease;
+	-webkit-transition:All 1s ease;
+	-moz-transition:All 1s ease;
+	-o-transition:All 1s ease;
+	transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+	-webkit-transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+	-moz-transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+	-o-transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+	-ms-transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
 }
 
 .btn-hero:active {
@@ -56,27 +56,27 @@ transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
 //-----------------------------------------------------------------------------
 
 .btn {
-  -webkit-border-radius: 0 60px 0 60px;
-  -moz-border-radius: 0 60px 0 60px;
-  border-radius: 0 60px 0 60px;
-  color: #ffffff;
-  font-size: 15px;
-  font-weight: bold;
-  font-family: Dax, Arial, Georgia;
-  text-decoration: underlined;
-  text-shadow: 3px 3px 5px #000;
-  padding: 5px 20px 5px 0;
-  margin: 30px;
-/*  -moz-box-shadow:inset 10px 3px 9px 2px #fff;
-  -webkit-box-shadow:inset 3px 10px 9px 2px #fff;
-  box-shadow:inset 10px 3px 9px 2px #fff;	 */ 
-  -webkit-box-shadow: 2px 4px 3px #666666;
-  -moz-box-shadow: 2px 4px 3px #666666;
-  box-shadow: 2px 4px 3px #666666;
-  transition:All 1s ease;
-  -webkit-transition:All 1s ease;
-  -moz-transition:All 1s ease;
-  -o-transition:All 1s ease;
+	-webkit-border-radius: 0 60px 0 60px;
+	-moz-border-radius: 0 60px 0 60px;
+	border-radius: 0 60px 0 60px;
+	color: #ffffff;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: Dax, Arial, Georgia;
+	text-decoration: underlined;
+	text-shadow: 3px 3px 5px #000;
+	padding: 5px 20px 5px 0;
+	margin: 30px;
+  /*  -moz-box-shadow:inset 10px 3px 9px 2px #fff;
+	-webkit-box-shadow:inset 3px 10px 9px 2px #fff;	// Ombra interna
+	box-shadow:inset 10px 3px 9px 2px #fff;	 */ 
+	-webkit-box-shadow: 2px 4px 3px #666666;
+	-moz-box-shadow: 2px 4px 3px #666666;		// Ombra esterna
+	box-shadow: 2px 4px 3px #666666;
+	transition:All 1s ease;
+	-webkit-transition:All 1s ease;
+	-moz-transition:All 1s ease;
+	-o-transition:All 1s ease;
 }
 
 a.btn:before {
@@ -94,14 +94,14 @@ a.btn:before {
 }
 
 .btn:hover {
-  background: red;
-  color: white;
-  cursor: pointer;
-  font-size: 30px;
+	background: red;
+	color: white;
+	cursor: pointer;
+	font-size: 30px;
 }
 
 .bla { background: #000000 } 
-.b { background: #006699 }
-.bl { background: #0099CC }
-.g { background: #457A1C }
-.gl { background: #7AB51D } 
+.blue { background: #006699 }
+.bluel { background: #0099CC }
+.green { background: #457A1C }
+.greenl { background: #7AB51D } 

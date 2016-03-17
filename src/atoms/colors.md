@@ -2,7 +2,7 @@
 title: Colors
 ---
 ## Colors
-These are Colors in the Application
+I colori del sito di GeoBeyond
 
 ### Examples
 <div class="library__example">
