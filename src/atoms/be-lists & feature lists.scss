@@ -1,0 +1,18 @@
+/* Rounded list items
+-------------------------------------------------------------------------------*/
+.list_item .circle {
+	border-color: #006699 !important ; 
+	border-width: 8px !important ; 
+	box-shadow: inset 5px 5px 5px 0 rgba(0,0,0,2) !important ;
+}
+
+/* Clients custom section
+-------------------------------------------------------------------------------*/
+ul.clients li .client_wrapper { 
+	border-radius: 10px !important; 	
+}
+
+ul.clients li .client_wrapper:hover { 
+	background: #7AB51D !important;
+	padding: 0 !important; 	
+}

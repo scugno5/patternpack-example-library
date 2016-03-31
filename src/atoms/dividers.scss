@@ -1,0 +1,54 @@
+/* Pattern divider
+----------------------------------------------------------------------------------*/
+hr.hr_pattern:not(.hr_color) {
+	position: relative !important;
+	width: 130% !important;
+	left: -10% !important; 
+	height: 35px !important;
+	margin: 10px -100px !important;
+	border-radius: 100px 0 100px 0 !important;
+    background: url(/assets/images/scacchiera_long.svg) !important;
+	filter: drop-shadow(5px -12px 1px rgba(0,0,0,3.75)) !important;	
+}
+
+/* Stripe divider
+----------------------------------------------------------------------------------*/
+hr.hr_stripe {
+	color: #0099CC !important;
+	position: relative !important;
+	height: 30px !important;
+	border-style: solid !important;
+	border-width: 5px 5px 5px 0 !important;
+	border-color: #457A1C !important;
+	background: #fff !important;
+	margin: 10px -70px !important;
+	padding: 5px 15px !important;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.3) !important;
+}
+
+hr.hr_stripe:after {
+	content: "" !important;
+	position: absolute !important;
+	z-index: -1 !important;
+	bottom: 5px !important;
+	right: 15px !important;
+	width: 40% !important;
+	height: 13px !important;
+	background: rgba(0, 0, 0, .7) !important;
+	box-shadow: 0 15px 10px rgba(0, 0, 0, .7) !important;
+	transform: rotate(2deg) !important;    
+}
+
+/* Bookmark divider
+----------------------------------------------------------------------------------*/
+hr.hr_bookmark {
+	height: 30px !important;
+	width: 100% !important;
+	background-color: transparent !important;
+	border-bottom: 2px dotted #7AB51D !important;
+	border-left: 7px solid #7AB51D !important;
+	margin: 0 -15px 15px -22px !important;
+}
+
+
+

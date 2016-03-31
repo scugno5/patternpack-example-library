@@ -2,73 +2,42 @@
 title: Be Buttons
 ---
 ## Be Buttons
-
 ### Examples
-<div class="library__example">
-	
-<a class="button  button_js" href="" target="_blank"><span class="button_label">Default button</span></a>
- 
-<a class="button  button_large button_js" href="" target="_blank"><span class="button_label">Default button</span></a>
-<a class="button  button_left button_js kill_the_icon" href="" target="_blank"><span class="button_icon"><i class="icon-layout"></i></span><span class="button_label">Button with icon</span></a>
- 
-<a class="button  button_right button_js kill_the_icon" href="" target="_blank"><span class="button_icon"><i class="icon-basket"></i></span><span class="button_label">Button with icon</span></a>
- 
-<a class="button  button_left button_js" href="" target="_blank"><span class="button_icon"><i class="icon-heart-fa"></i></span></a>
-<a class="button  button_theme button_js" href="" target="_blank"><span class="button_label">Default button</span></a>
- 
-<a class="button  button_large button_theme button_js" href="" target="_blank"><span class="button_label">Default button</span></a>
-<a class="button  button_left button_theme button_js kill_the_icon" href="" target="_blank"><span class="button_icon"><i class="icon-layout"></i></span><span class="button_label">Button with icon</span></a>
- 
-<a class="button  button_right button_theme button_js kill_the_icon" href="" target="_blank"><span class="button_icon"><i class="icon-basket"></i></span><span class="button_label">Button with icon</span></a>
- 
-<a class="button  button_left button_theme button_js" href="" target="_blank"><span class="button_icon"><i class="icon-heart-fa"></i></span></a>
-<a class="button  button_red button_js" href="" target="_blank"><span class="button_label">Default button</span></a>
- 
-<a class="button  button_left button_red button_js kill_the_icon" href="" target="_blank"><span class="button_icon"><i class="icon-heart-fa"></i></span><span class="button_label">Button with icon</span></a>
- 
-<a class="button  button_left button_red button_js" href="" target="_blank"><span class="button_icon"><i class="icon-heart-fa"></i></span></a>
-<a class="button  button_blue button_js" href="" target="_blank"><span class="button_label">Default button</span></a>
- 
-<a class="button  button_left button_blue button_js kill_the_icon" href="" target="_blank"><span class="button_icon"><i class="icon-heart-fa"></i></span><span class="button_label">Button with icon</span></a>
- 
-<a class="button  button_left button_blue button_js" href="" target="_blank"><span class="button_icon"><i class="icon-heart-fa"></i></span></a>
-<a class="button  button_turquoise button_js" href="" target="_blank"><span class="button_label">Default button</span></a>
- 
-<a class="button  button_left button_turquoise button_js kill_the_icon" href="" target="_blank"><span class="button_icon"><i class="icon-heart-fa"></i></span><span class="button_label">Button with icon</span></a>
- 
-<a class="button  button_left button_turquoise button_js" href="" target="_blank"><span class="button_icon"><i class="icon-heart-fa"></i></span></a>
-<a class="button  button_yellow button_js" href="" target="_blank"><span class="button_label">Default button</span></a>
-
-<a class="button  button_left button_yellow button_js kill_the_icon" href="" target="_blank"><span class="button_icon"><i class="icon-heart-fa"></i></span><span class="button_label">Button with icon</span></a>
-
-<a class="button  button_left button_yellow button_js" href="" target="_blank"><span class="button_icon"><i class="icon-heart-fa"></i></span></a>
-<a class="button  button_grey button_js" href="" target="_blank"><span class="button_label">Default button</span></a>
- 
-<a class="button  button_left button_grey button_js kill_the_icon" href="" target="_blank"><span class="button_icon"><i class="icon-heart-fa"></i></span><span class="button_label">Button with icon</span></a>
- 
-<a class="button  button_left button_grey button_js" href="" target="_blank"><span class="button_icon"><i class="icon-heart-fa"></i></span></a>
-<a class="button  button_navy button_js" href="" target="_blank"><span class="button_label">Default button</span></a>
- 
-<a class="button  button_left button_navy button_js kill_the_icon" href="" target="_blank"><span class="button_icon"><i class="icon-heart-fa"></i></span><span class="button_label">Button with icon</span></a>
- 
-<a class="button  button_left button_navy button_js" href="" target="_blank"><span class="button_icon"><i class="icon-heart-fa"></i></span></a>
-<a class="button  button_orange button_js" href="" target="_blank"><span class="button_label">Default button</span></a>
- 
-<a class="button  button_left button_orange button_js kill_the_icon" href="" target="_blank"><span class="button_icon"><i class="icon-heart-fa"></i></span><span class="button_label">Button with icon</span></a>
- 
-<a class="button  button_left button_orange button_js" href="" target="_blank"><span class="button_icon"><i class="icon-heart-fa"></i></span></a>
-<a class="button  button_green button_js" href="" target="_blank"><span class="button_label">Default button</span></a>
- 
-<a class="button  button_left button_green button_js kill_the_icon" href="" target="_blank"><span class="button_icon"><i class="icon-heart-fa"></i></span><span class="button_label">Button with icon</span></a>
- 
-<a class="button  button_left button_green button_js" href="" target="_blank"><span class="button_icon"><i class="icon-heart-fa"></i></span></a>
-
-</div>
-	
+<div class="library__example">	
+<a class="button  button_js" href="" target="_blank"><span class="button_label">Default button</span></a><a class="button  button_large button_js" href="" target="_blank"><span class="button_label">Default button</span></a><a class="button  button_left button_js kill_the_icon" href="" target="_blank"><span class="button_icon"><i class="icon-layout"></i></span><span class="button_label">Button with icon</span></a><a class="button  button_right button_js kill_the_icon" href="" target="_blank"><span class="button_icon"><i class="icon-play"></i></span><span class="button_label">Button with icon</span></a><a class="button  button_left button_js" href="" target="_blank"><span class="button_icon"><i class="icon-alert"></i></span></a><a class="button-round" href="" target="_blank"><span> Testo </span></a><a class="button-round small" href="" target="_blank"><span> Testo </span></a><a class="button-round" href="" target="_blank"><span class="button_icon"><i class="icon-alert"></i></span></a><a class="button-round small" href="" target="_blank"><span class="button_icon"><i class="icon-play"></i></span></a><br><a class="button cyan button_js" href="" target="_blank"><span class="button_label">Default button</span></a><a class="button cyan button_large button_js" href="" target="_blank"><span class="button_label">Default button</span></a><a class="button cyan button_left button_js kill_the_icon" href="" target="_blank"><span class="button_icon"><i class="icon-plus-circled"></i></span><span class="button_label">Button with icon</span></a><a class="button cyan button_right button_js kill_the_icon" href="" target="_blank"><span class="button_icon"><i class="icon-attach"></i></span><span class="button_label">Button with icon</span></a><a class="button cyan button_left button_js" href="" target="_blank"><span class="button_icon"><i class="icon-home"></i></span></a><a class="button blue button_js" href="" target="_blank"><span class="button_label">Default button</span></a><a class="button blue button_large button_js" href="" target="_blank"><span class="button_label">Default button</span></a><a class="button blue button_left button_js kill_the_icon" href="" target="_blank"><span class="button_icon"><i class="icon-info"></i></span><span class="button_label">Button with icon</span></a><a class="button blue button_right button_js kill_the_icon" href="" target="_blank"><span class="button_icon"><i class="icon-chat"></i></span><span class="button_label">Button with icon</span></a><a class="button blue button_left button_js" href="" target="_blank"><span class="button_icon"><i class="icon-reply"></i></span></a><a class="button green-light button_js" href="" target="_blank"><span class="button_label">Default button</span></a><a class="button green-light button_large button_js" href="" target="_blank"><span class="button_label">Default button</span></a><a class="button green-light button_left button_js kill_the_icon" href="" target="_blank"><span class="button_icon"><i class="icon-search"></i></span><span class="button_label">Button with icon</span></a><a class="button green-light button_right button_js kill_the_icon" href="" target="_blank"><span class="button_icon"><i class="icon-basket"></i></span><span class="button_label">Button with icon</span></a><a class="button green-light button_left button_js" href="" target="_blank"><span class="button_icon"><i class="icon-signal"></i></span></a><a class="button green-dark button_js" href="" target="_blank"><span class="button_label">Default button</span></a><a class="button green-dark button_large button_js" href="" target="_blank"><span class="button_label">Default button</span></a><a class="button green-dark button_left button_js kill_the_icon" href="" target="_blank"><span class="button_icon"><i class="icon-star"></i></span><span class="button_label">Button with icon</span></a><a class="button green-dark button_right button_js kill_the_icon" href="" target="_blank"><span class="button_icon"><i class="icon-tools"></i></span><span class="button_label">Button with icon</span></a><a class="button green-dark button_left button_js" href="" target="_blank"><span class="button_icon"><i class="icon-up-bold"></i></span></a><h5 style="margin: 0;">Call to action</h5><div class="call_to_action"><div class="call_to_action_wrapper"><div class="call_left"><h3>Click to play</h3></div><div class="call_center"><a href="https://www.youtube.com/watch?v=liqoMjRT81A" class="" rel="prettyphoto"><span class="icon_wrapper"><i class="icon-play"></i></span></a></div><div class="call_right"><div class="desc">You can open things u like </div></div></div></div>
+</div>	
 ### Code
 ```html
-
-
+<a class="button  button_js" href="" target="_blank"><span class="button_label">Default button</span></a>
+<a class="button  button_large button_js" href="" target="_blank"><span class="button_label">Default button</span></a>
+<a class="button  button_left button_js kill_the_icon" href="" target="_blank"><span class="button_icon"><i class="icon-layout"></i></span><span class="button_label">Button with icon</span></a>
+<a class="button  button_right button_js kill_the_icon" href="" target="_blank"><span class="button_icon"><i class="icon-play"></i></span><span class="button_label">Button with icon</span></a>
+<a class="button  button_left button_js" href="" target="_blank"><span class="button_icon"><i class="icon-alert"></i></span></a>
+<a class="button-round" href="" target="_blank"><span> Testo </span></a>
+<a class="button-round small" href="" target="_blank"><span> Testo </span></a>
+<a class="button-round" href="" target="_blank"><span class="button_icon"><i class="icon-alert"></i></span></a>
+<a class="button-round small" href="" target="_blank"><span class="button_icon"><i class="icon-play"></i></span></a>
+<a class="button cyan button_js" href="" target="_blank"><span class="button_label">Default button</span></a>
+<a class="button cyan button_large button_js" href="" target="_blank"><span class="button_label">Default button</span></a>
+<a class="button cyan button_left button_js kill_the_icon" href="" target="_blank"><span class="button_icon"><i class="icon-plus-circled"></i></span><span class="button_label">Button with icon</span></a>
+<a class="button cyan button_right button_js kill_the_icon" href="" target="_blank"><span class="button_icon"><i class="icon-attach"></i></span><span class="button_label">Button with icon</span></a>
+<a class="button cyan button_left button_js" href="" target="_blank"><span class="button_icon"><i class="icon-home"></i></span></a>
+<a class="button blue button_js" href="" target="_blank"><span class="button_label">Default button</span></a>
+<a class="button blue button_large button_js" href="" target="_blank"><span class="button_label">Default button</span></a>
+<a class="button blue button_left button_js kill_the_icon" href="" target="_blank"><span class="button_icon"><i class="icon-info"></i></span><span class="button_label">Button with icon</span></a>
+<a class="button blue button_right button_js kill_the_icon" href="" target="_blank"><span class="button_icon"><i class="icon-chat"></i></span><span class="button_label">Button with icon</span></a>
+<a class="button blue button_left button_js" href="" target="_blank"><span class="button_icon"><i class="icon-reply"></i></span></a>
+<a class="button green-light button_js" href="" target="_blank"><span class="button_label">Default button</span></a>
+<a class="button green-light button_large button_js" href="" target="_blank"><span class="button_label">Default button</span></a>
+<a class="button green-light button_left button_js kill_the_icon" href="" target="_blank"><span class="button_icon"><i class="icon-search"></i></span><span class="button_label">Button with icon</span></a>
+<a class="button green-light button_right button_js kill_the_icon" href="" target="_blank"><span class="button_icon"><i class="icon-basket"></i></span><span class="button_label">Button with icon</span></a>
+<a class="button green-light button_left button_js" href="" target="_blank"><span class="button_icon"><i class="icon-signal"></i></span></a>
+<a class="button green-dark button_js" href="" target="_blank"><span class="button_label">Default button</span></a>
+<a class="button green-dark button_large button_js" href="" target="_blank"><span class="button_label">Default button</span></a>
+<a class="button green-dark button_left button_js kill_the_icon" href="" target="_blank"><span class="button_icon"><i class="icon-star"></i></span><span class="button_label">Button with icon</span></a>
+<a class="button green-dark button_right button_js kill_the_icon" href="" target="_blank"><span class="button_icon"><i class="icon-tools"></i></span><span class="button_label">Button with icon</span></a>
+<a class="button green-dark button_left button_js" href="" target="_blank"><span class="button_icon"><i class="icon-up-bold"></i></span></a>
+<div class="call_to_action"><div class="call_to_action_wrapper"><div class="call_left"><h3>Click to play</h3></div><div class="call_center"><a href="https://www.youtube.com/watch?v=liqoMjRT81A" class="" rel="prettyphoto"><span class="icon_wrapper"><i class="icon-play"></i></span></a></div><div class="call_right"><div class="desc">You can open things u like </div></div></div></div>
 ```
 
 

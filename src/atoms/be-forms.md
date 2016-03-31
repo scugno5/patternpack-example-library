@@ -2,27 +2,15 @@
 title: Be Forms
 ---
 ## Be Forms
-
 ### Examples
 <div class="library__example">
-
-	<p>Your Name (required)<br>
-		<span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-element" aria-required="true" aria-invalid="false"></span> </p>
-			
-	<p>Your Email (required)<br>
-		<span class="wpcf7-form-control-wrap your-email"><input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email form-element" aria-required="true" aria-invalid="false"></span> </p>
-			
-	<p>Subject<br>
-		<span class="wpcf7-form-control-wrap classform-element"><input type="text" name="class:form-element" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false"></span> </p>
-			
-	<p>Your Message<br>
-		<span class="wpcf7-form-control-wrap classform-element"><textarea name="class:form-element" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required" aria-required="true" aria-invalid="false"></textarea></span> </p>
-			
-	<p><input type="submit" value="Send message" class="wpcf7-form-control wpcf7-submit"><img class="ajax-loader" src="http://localhost/geoprova/wp-content/plugins/contact-form-7/images/ajax-loader.gif" alt="Sending ..." style="visibility: hidden;"></p>
-
+<div class="wrap mcb-wrap one  clearfix" style=""><div class="mcb-wrap-inner"><div class="column mcb-column one-second column_column  column-margin-"><div class="column_attr" style=""><h5 style="margin: 0;">Forms</h5></div></div><div class="column mcb-column one-second column_column  column-margin-"><div class="column_attr" style=""><div role="form" class="wpcf7" id="wpcf7-f1173-p1164-o1" lang="en-US" dir="ltr"><div class="screen-reader-response"></div><form action="/betheme/shortcodes/typography/#wpcf7-f1173-p1164-o1" method="post" class="wpcf7-form" novalidate="novalidate"><div style="display: none;"> <input type="hidden" name="_wpcf7" value="1173"> <input type="hidden" name="_wpcf7_version" value="4.4"> <input type="hidden" name="_wpcf7_locale" value="en_US"> <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f1173-p1164-o1"> <input type="hidden" name="_wpnonce" value="e7255175f2"></div><p><span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Your name"></span><span class="wpcf7-form-control-wrap your-email"><input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Your email"></span><span class="wpcf7-form-control-wrap your-subject"><input type="text" name="your-subject" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Subject"></span><span class="wpcf7-form-control-wrap your-message"><textarea name="your-message" cols="40" rows="6" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Message"></textarea></span><input type="submit" value="Send message" class="wpcf7-form-control wpcf7-submit"><img class="ajax-loader" src="http://themes.muffingroup.com/betheme/wp-content/plugins/contact-form-7/images/ajax-loader.gif" alt="Sending ..." style="visibility: hidden;"></p><div class="wpcf7-response-output wpcf7-display-none"></div></form></div></div></div></div></div>
 </div>
-
 ### Code
 ```html
-
+<p>Your Name (required)<br><span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-element" aria-required="true" aria-invalid="false"></span></p>			
+<p>Your Email (required)<br><span class="wpcf7-form-control-wrap your-email"><input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email form-element" aria-required="true" aria-invalid="false"></span></p>			
+<p>Subject<br><span class="wpcf7-form-control-wrap classform-element"><input type="text" name="class:form-element" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false"></span></p>			
+<p>Your Message<br><span class="wpcf7-form-control-wrap classform-element"><textarea name="class:form-element" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required" aria-required="true" aria-invalid="false"></textarea></span></p>			
+<p><input type="submit" value="Send message" class="wpcf7-form-control wpcf7-submit"><img class="ajax-loader" src="http://localhost/geoprova/wp-content/plugins/contact-form-7/images/ajax-loader.gif" alt="Sending ..." style="visibility: hidden;"></p>
 ```

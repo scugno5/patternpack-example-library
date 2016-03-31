@@ -1,14 +1,17 @@
 ---
-title: Welcome to PatternPack
+title: Welcome to GeoBeyond - Be Theme Based - Style guides
 ---
 
-# Welcome to PatternPack
-This is an example pattern library built by [PatternPack](http://patternpack.org/), a tool for designing and documenting User Interface code, then sharing it among multiple applications.
+# Getting started
+Ho importato in locale tutti gli style.css che il tema Be di Wordpress usa. Cercando di rispettare tutte le dinamiche, discendenze e relazioni.
+Il file creato - /patternpack-example-library/src/assets/sass/_be-theme-styles.scss - viene importato e compilato assieme agli altri files predisposti dal tool Patternpack.
 
-While this is a very stock implementation, PatternPack has [many options](https://github.com/patternpack/patternpack#options) to customize it to your needs, including custom themes for your documentation, Sass and LESS support, and more.
+## Development
+Ogni elemento "atom.md" è stato poi associato ad un foglio stile scss dove necessario.
 
 ## Next Steps
-This project can serve as a starting point for your own pattern library, or simply as a reference point when [building your own from scratch](https://github.com/patternpack/patternpack/blob/develop/docs/tutorial.md). Be sure to take a look at all the PatternPack [Guides and Resources](https://github.com/patternpack/patternpack/blob/develop/docs/docs.md).
+Prima di applicare la futura versione definitiva dello style guide al child theme di WP, è necessario eliminare dalla task di patterpack il suddetto file - _be-theme-styles.scss. Quindi copiare - /patternpack-example-library/src/assets/sass/patterns.scss - nello style.css del theme child.
 
-## Help & Support
-If you have questions, bugs, or enhancement requests you can [file an issue on GitHub](https://github.com/patternpack/patternpack/issues). We also have a [Slack Channel](http://slack.patternpack.org/).
+
+
+
